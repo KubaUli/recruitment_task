@@ -20,7 +20,6 @@ public class InsuranceOffersService {
         this.vehicleService = vehicleService;
         this.clientRepository = clientRepository;
     }
-/*
 
     String findUserLogin(long id) {
         return (clientRepository.findById(id).get().login);
@@ -29,7 +28,6 @@ public class InsuranceOffersService {
     List<Vehicle> getAllVehiclefromUser(long id) {
         return vehicleRepository.findAllVehicleByUsersLogin(findUserLogin(id));
     }
-*/
 
 
     List<InsuranceOffers> findAllOfferts(long id, long vehicleNumber) {
